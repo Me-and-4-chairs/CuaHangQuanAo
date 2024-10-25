@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Shop Quần Áo</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Manchester", "Arsenal", "Juventus", "Liverpool"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script>addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script>addHeader();</script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p>Chào mừng bạn đến với Shop Quần Áo Thể Thao – điểm đến lý tưởng cho những tín đồ yêu thích bóng đá! Chúng tôi tự hào mang đến cho bạn bộ sưu tập quần áo bóng đá đa dạng, chất lượng cao và thiết kế thời thượng.</p>
+                <br>
+                <p><strong>Về Chúng Tôi</strong></p>
+                <p>Được thành lập với sứ mệnh cung cấp sản phẩm chất lượng cho các cầu thủ và người hâm mộ, [Tên Website] đã nhanh chóng trở thành một trong những thương hiệu hàng đầu trong lĩnh vực thời trang thể thao. Chúng tôi không chỉ cung cấp trang phục bóng đá chính hãng từ các thương hiệu nổi tiếng mà còn sở hữu những mẫu thiết kế độc đáo, phù hợp với xu hướng và phong cách hiện đại.</p>
+                <br>
+                <p><strong>Sản Phẩm Đa Dạng</strong></p>
+                <p>Tại Shop Quần Áo Thể Thao, bạn sẽ tìm thấy:</p>
+                <ul>
+                    <ui>Áo thi đấu của các đội bóng nổi tiếng</ui>
+                    <ui>Quần shorts và tất bóng đá</ui>
+                    <ui>Phụ kiện thể thao như găng tay, băng đầu, và bình nước</ui>
+                </ul>
+                <p>Tất cả sản phẩm đều được chọn lọc kỹ lưỡng, đảm bảo chất lượng, độ bền và tính năng thoải mái nhất cho người sử dụng.</p>
+                <br>
+                <p><strong>Dịch Vụ Khách Hàng Tận Tâm</strong></p>
+                <p>Chúng tôi cam kết mang đến cho bạn trải nghiệm mua sắm tuyệt vời nhất. Đội ngũ nhân viên chuyên nghiệp và nhiệt tình của chúng tôi luôn sẵn sàng tư vấn, hỗ trợ bạn trong việc chọn lựa sản phẩm phù hợp với nhu cầu và sở thích.</p>
+                <br>
+                <p><strong>Ưu Đãi Đặc Biệt</strong></p>
+                <p>Tham gia vào Shop Quần Áo Thể Thao, bạn không chỉ được trải nghiệm những sản phẩm chất lượng mà còn có cơ hội nhận được nhiều ưu đãi hấp dẫn. Đừng bỏ lỡ các chương trình khuyến mãi, giảm giá và quà tặng đặc biệt cho khách hàng thân thiết!</p>
+                <br>
+                <p><strong>Kết Nối Với Chúng Tôi</strong></p>
+                <p>Chúng tôi luôn trân trọng ý kiến đóng góp từ bạn. Hãy theo dõi chúng tôi trên các trang mạng xã hội để cập nhật những thông tin mới nhất về sản phẩm và các chương trình khuyến mãi.</p>
+                <br>
+                <p>Cảm ơn bạn đã ghé thăm Shop Quần Áo Thể Thao. Hãy cùng chúng tôi chinh phục sân cỏ với những bộ quần áo bóng đá chất lượng nhất!</p>
+
+            </div>
+        </div>
+    </section>
+
+    <script>addContainTaiKhoan();</script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>

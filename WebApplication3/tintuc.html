@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tin tức - Shop Quần Áo Thể Thao</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Manchester", "Arsenal", "Juventus", "Liverpool"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script>addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script>addHeader();</script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://onsports.vn/post/3-mau-ao-dau-bat-mat-cua-mu-202122" target="_blank">
+                    <img src="img/tintuc/tintuc1.png">
+                    <h2>Đánh giá 3 mẫu áo đấu bắt mắt của MU 2021/22</h2>
+                </a>
+                <br />
+                <h5>Onsports &emsp;1 năm trước</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://obitosport.com/mau-ao-clb-man-city-2023-2024-san-nha-chiem-ngoi-vuong-vua-ao-dau/" target="_blank">
+                    <img src="img/tintuc/tintuc2.jpg">
+                    <h2>Khám phá Mẫu Áo CLB Man City 2023-2024 Sân Nhà Chiếm Ngôi Vương “Vua Áo Đấu”</h2>
+                </a>
+                <br />
+                <h5>Obitosport &emsp;4 tháng trước</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://bongdaplus.vn/hau-truong-bong-da/10-mau-ao-xau-nhat-trong-lich-su-bong-da-680911310.html" target="_blank">
+                    <img src="img/tintuc/tintuc3.jpg">
+                    <h2>Những mẫu áo đấu thảo hại nhất lịch sử</h2>
+                </a>
+                <br />
+                <h5>Bóng Đá Plus &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://www.bongda.com.vn/top-10-clb-co-thu-nhap-lon-nhat-tu-viec-ban-ao-dau-bat-ngo-man-city-d722285.html" target="_blank">
+                    <img src="img/tintuc/tintuc4.jpg">
+                    <h2>Top 10 CLB có thu nhập lớn nhất từ việc bán áo đấu</h2>
+                </a>
+                <br />
+                <h5>Bóng Đá &emsp; 13 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://bulbal.vn/blogs/news/nhung-tieu-chi-khi-chon-ao-bong-da-ma-ban-can-biet#:~:text=L%E1%BB%B1a%20ch%E1%BB%8Dn%20ch%E1%BA%A5t%20li%E1%BB%87u%20tho%E1%BA%A3i%20m%C3%A1i%20C%C3%B4ng%20ngh%E1%BB%87,t%C3%ADn%20c%C3%B3%20t%C3%AAn%20tu%E1%BB%95i%20tr%C3%AAn%20th%E1%BB%8B%20tr%C6%B0%E1%BB%9Dng%20Gi%C3%A1" target="_blank">
+                    <img src="img/tintuc/tintuc5.jpg" >
+                    <h2>Những tiêu chí khi chọn áo bóng đá mà bạn cần biết</h2>
+                </a>
+                <br />
+                <h5>Bulbal &emsp; 9 giờ</h5>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>addContainTaiKhoan();</script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
